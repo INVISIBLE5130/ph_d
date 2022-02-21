@@ -1,0 +1,40 @@
+/*
+Theme Name: PH_D
+*/
+
+body { padding: 0; margin: 0; font-family: Arial; font-weight: normal;}
+.collage { height: 160px; width: 1005px;}
+
+.menu_part { float: left; width: 251px; }
+.central_part { float: right; width: 754px; position: relative}
+.container { width: 1005px; text-align: left; font: 12px Arial; color: rgb(102, 102, 102); }
+
+.footer { margin-top: 50px; height: 143px; background: url('img/footer_bg.jpg') repeat-x scroll 0% 0% transparent; }
+
+.clear { clear: both; }
+
+.header-section { background: url('img/header-section-bg.png') repeat-x scroll 0% 0% transparent; }
+.header-section .collage { margin: 0 auto; height: 143px; }
+
+.container-section { background: url('img/content-bg.png') repeat-x scroll 0px -18px white;height: 200px; }
+.container-section .container { margin: 0 auto; }
+
+.body_text {
+    position: absolute;
+    top: -19px;
+    left: 0;
+}
+.body_text.part2 {
+    top:560px;
+}
+.form {
+    width: 100%;
+    height: 120px;
+}
+.wrap {
+    width: 1005px;
+    margin: 0 auto;
+}
+.banner-section {
+    background: url("img/banner_bg.jpg") top left repeat-x;
+}
